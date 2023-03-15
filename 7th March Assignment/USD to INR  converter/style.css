@@ -1,0 +1,78 @@
+/*  CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(orange,white,green);
+   
+}
+
+.outer-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 18px #636262;
+   height: 400px;
+   width: 400px;
+   background-color: rgb(23, 24, 24);
+   color: aliceblue;
+}
+.usd-block label{
+   font-size: 24px;
+
+}
+
+.usd-block input{
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 3px 3px 3px 3px;
+ }
+ .output-block {
+    position: relative;
+    margin-top: 30px;
+
+}
+ .output-block label{
+    margin-top: 20px;
+    font-size: 24px;
+    position: relative;
+
+ }
+ .output-block span{
+    margin-top: 20px;
+    font-size: 24px;
+ }
+ button{
+    height: 38px;
+    width: 100px;
+    margin-top: 70px;
+    border-radius: 19px;
+    padding: 4px 4px 4px 4px;
+    font-weight: 600;
+ }
+ button:hover{
+    background-color: #80f562;
+    box-shadow: 2px 2px 15px #37b868;
+    border: 0px;
+ }
+ h2{
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
